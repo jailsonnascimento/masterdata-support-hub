@@ -53,7 +53,7 @@ const App: React.FC = () => {
             "
           >
             <WhatsappIcon className="w-6 h-6" />
-            <span>Suporte Clique aqui</span>
+            <span>Suporte - Clique aqui</span>
           </a>
         </div>
       </footer>

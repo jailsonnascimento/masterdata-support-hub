@@ -15,7 +15,7 @@ const ClientLogo: React.FC<ClientLogoProps> = ({ clientName }) => {
   
   const [imageUrl, setImageUrl] = useState(defaultBg); // Começa com o padrão para evitar "flash" de tela vazia
 
-  // Verifica se a imagem customizada do cliente existe. Se não, usa a padrão.
+  // Verifica se a imagem customizada do cliente existe. Se não, usa a padrão cao não tenha.
   useEffect(() => {
     if (clientBg === defaultBg) {
       setImageUrl(defaultBg);
